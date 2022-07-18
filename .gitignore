@@ -14,6 +14,9 @@
 .cxx
 local.properties
 
+/buildSrc/build
+
+
 
 # Gradle files
 .gradle/
@@ -46,3 +49,5 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+
