@@ -1,5 +1,17 @@
 object Library {
     const val coreKtx = "androidx.core:core-ktx:${LibraryVersion.coreKtx}"
+    const val coroutine =
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:${LibraryVersion.coroutine}"
+
+    object LifecycleAwareKtx {
+        const val viewModel =
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:${LibraryVersion.lifecycleAwareKtx}"
+        const val lifecycleScope =
+            "androidx.lifecycle:lifecycle-runtime-ktx:${LibraryVersion.lifecycleAwareKtx}"
+        const val liveData =
+            "androidx.lifecycle:lifecycle-livedata-ktx:${LibraryVersion.lifecycleAwareKtx}"
+
+    }
 
     object UI {
         const val appCompat = "androidx.appcompat:appcompat:${LibraryVersion.UI.appCompat}"

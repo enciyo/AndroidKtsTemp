@@ -1,5 +1,7 @@
 object LibraryVersion {
     const val coreKtx = "1.8.0"
+    const val coroutine = "1.3.9"
+    const val lifecycleAwareKtx = "2.4.0"
 
     object UI {
         const val appCompat = "1.4.2"

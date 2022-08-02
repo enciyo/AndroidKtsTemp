@@ -30,7 +30,12 @@ class AndroidProjectPlugin : Plugin<Project> {
         Library.coreKtx,
         Library.UI.appCompat,
         Library.UI.constraintLayout,
-        Library.UI.material
+        Library.UI.material,
+        Library.coroutine,
+        Library.LifecycleAwareKtx.lifecycleScope,
+        Library.LifecycleAwareKtx.liveData,
+        Library.LifecycleAwareKtx.viewModel,
+
     )
 
     private fun testImplementations() = listOf(
